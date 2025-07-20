@@ -45,7 +45,7 @@ console.log(ispalindrome("12321")); // Output: "Yes"
 console.log(ispalindrome("12345")); // Output: "No"
 */
 
-//----------------------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------
 function fibseries(n){
     series=[0,1];
     for(let i=2; i<n; i++) {
@@ -55,3 +55,15 @@ function fibseries(n){
 }
 let n = 10;
 console.log("Fibonacci series of " + n + " terms: " + fibseries(n)); // Output: Fibonacci series of 10 terms: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34] 
+*/
+
+//----------------------------------------------------------------------------------------------
+function factorial(n){
+    let fact = 1;
+    for(let i=2;i<n; i++) {
+        fact=fact*i;
+    }
+    return fact;
+}
+let n = 5;
+console.log("Factorial of " + n + " is: " + factorial(n)); // Output: Factorial of 5 is: 120
